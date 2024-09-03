@@ -5,9 +5,9 @@ This project guides you through the entire process of creating a real estate pri
 Throughout the model-building phase, we will explore a wide range of data science concepts, including data loading and cleaning, detecting and removing outliers, feature engineering, dimensionality reduction, hyperparameter tuning with GridSearchCV, and k-fold cross-validation.
 
 Tools & Techniques used:
-  i)Front End - HTML, CSS, JS
-  ii)Back End - Flask
-  iii)Machine Learning - Regression Analysis 
+  `i)Front End - HTML, CSS, JS`
+  `ii)Back End - Flask`
+  `iii)Machine Learning - Regression Analysis `
   
 
 
