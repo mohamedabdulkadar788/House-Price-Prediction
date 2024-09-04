@@ -38,17 +38,18 @@ Tools & Techniques used:
      ```sudo apt-get update```
      ```sudo apt-get install nginx```
    - Sample Nginx configuration:
-     ```nginx
+     ```
+     nginx
      server {
-    listen 80;
-        server_name bhp;
-        root /home/ubuntu/BHPP/FrontEnd;
-        index app.html;
-        location /api/ {
-             rewrite ^/api(.*) $1 break;
-             proxy_pass http://127.0.0.1:5000;
+      listen 80;
+          server_name bhp;
+          root /home/ubuntu/BHPP/FrontEnd;
+          index app.html;
+          location /api/ {
+               rewrite ^/api(.*) $1 break;
+               proxy_pass http://127.0.0.1:5000;
+            }
         }
-}
      ```
 
 3. **Running the Flask Application**:
