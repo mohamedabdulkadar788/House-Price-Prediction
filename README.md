@@ -28,10 +28,15 @@ Tools & Techniques used:
    - Launch an EC2 instance with the desired operating system.
    - Configure security groups to allow inbound traffic on necessary ports (e.g., 80 for HTTP, 443 for HTTPS).
    - SSH into the EC2 instance to set up the environment.
+   - Connect to your instance using the following command
+   ```ssh -i "C:\Users\Viral\.ssh\Banglore.pem" ubuntu@ec2-3-133-88-210.us-east-2.compute.amazonaws.com```
 
 2. **Nginx Configuration**:
    - Install Nginx on the EC2 instance.
    - Configure Nginx to serve as a reverse proxy for the Flask application.
+   - The following commands are used to update files and install nginx on EC2 instance.
+     ```sudo apt-get update```
+     ```sudo apt-get install nginx```
    - Sample Nginx configuration:
      ```nginx
      server {
