@@ -35,17 +35,15 @@ Tools & Techniques used:
    - Sample Nginx configuration:
      ```nginx
      server {
-         listen 80;
-         server_name your-domain.com;
-
-         location / {
+    listen 80;
+        server_name bhp;
+        root /home/ubuntu/BHPP/FrontEnd;
+        index app.html;
+        location /api/ {
+             rewrite ^/api(.*) $1 break;
              proxy_pass http://127.0.0.1:5000;
-             proxy_set_header Host $host;
-             proxy_set_header X-Real-IP $remote_addr;
-             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-             proxy_set_header X-Forwarded-Proto $scheme;
-         }
-     }
+        }
+}
      ```
 
 3. **Running the Flask Application**:
