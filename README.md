@@ -39,7 +39,6 @@ Tools & Techniques used:
      ```sudo apt-get install nginx```
    - Sample Nginx configuration:
      ```
-     nginx
      server {
       listen 80;
           server_name bhp;
