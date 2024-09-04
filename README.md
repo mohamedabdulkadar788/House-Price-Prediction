@@ -60,7 +60,7 @@ Tools & Techniques used:
 
 ### Usage
 
-Visit the deployed application at [http://your-ec2-public-ip]([http://your-ec2-public-ip](https://ec2-16-171-182-230.eu-north-1.compute.amazonaws.com/)) to interact with the house price prediction model.
+Visit the deployed application at [http://your-ec2-public-ip](https://ec2-16-171-182-230.eu-north-1.compute.amazonaws.com/) to interact with the house price prediction model.
 
 
   
