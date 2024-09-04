@@ -56,11 +56,11 @@ Tools & Techniques used:
      ```bash
      python3 server.py
      ```
-   - The application will be accessible at `http://your-ec2-public-ip` or the configured domain name.
+   - The application will be accessible at `[http://your-ec2-public-ip](https://ec2-16-171-182-230.eu-north-1.compute.amazonaws.com/)` or the configured domain name.
 
 ### Usage
 
-Visit the deployed application at [http://your-ec2-public-ip](http://your-ec2-public-ip) to interact with the house price prediction model.
+Visit the deployed application at [http://your-ec2-public-ip]([http://your-ec2-public-ip](https://ec2-16-171-182-230.eu-north-1.compute.amazonaws.com/)) to interact with the house price prediction model.
 
 
   
